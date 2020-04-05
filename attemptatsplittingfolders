@@ -1,0 +1,10 @@
+!pip install split-folders
+!pip install split-folders tqdm
+
+import split_folders
+split_folders.ratio('./LGGtestpat', output='./output', seed=1337, ratio=(.8, .2))
+
+#the above appeared to work but then didnt actually transfer the nii.gz files
+
+
+# Attempt 2
